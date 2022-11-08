@@ -5,7 +5,7 @@ Feature: Library app login feature
   dashboard should be displayed.
 
   Accounts are: librarian, student, admin
-
+@regression
   Background: For the scenarios in the feature file, user is expected to be on login page
     Given user is on the library login page
 
